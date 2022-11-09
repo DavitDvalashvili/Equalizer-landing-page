@@ -1,0 +1,143 @@
+@media only screen and (min-width: 768px) {
+    /* styling of body */
+    body {
+        background-image: url(assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position: right -25rem top -25rem;
+    }
+    html {
+        background-image: url(assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-position: top -3.2rem right -3.335rem;
+    }
+    /* styling of main div and it's elements */
+    .illustration {
+        width: 100%;
+        max-width: 69.9rem;
+        background-position: center -4rem;
+    }
+    .illustration img {
+        top: -13.8rem;
+        left: 19.9rem;
+    }
+    .orange-box {
+        max-width: 39.9rem;
+        position: absolute;
+        top: 15rem;
+        left: 43.85rem;
+    }
+    /* styling of header */
+    header img {
+        margin: 6.2rem 0 0 3.915rem;
+    }
+    /* styling of introduction */
+    .intro {
+        margin: 9.5rem 3.9rem 24.9rem 3.9rem;
+    }
+    h1 {
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+        letter-spacing: -0.072rem;
+    }
+    .intro p {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        margin-top: 2.8rem;
+    }
+    /* styling of footer */
+    footer {
+        margin: 18.299rem 3.9rem 8.5rem 3.9rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer .logo {
+        margin-right: 76.5vw;
+        display: block;
+    }
+    .social-media {
+        margin: 0 1.5rem 0 0;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    /* html {
+        background-position: top -3.2rem right 0;
+    } */
+    body {
+        background-image: url(assets/bg-main-desktop.png);
+        background-position: bottom 500px;
+    }
+    /* styling of header */
+    header img {
+        margin: 6.2rem 0 0 16.5rem;
+    }
+    /* styling of introduction */
+    .intro {
+        margin: 12.7rem 16.5rem 32.1rem 16.5rem;
+    }
+    h1 {
+        max-width: 91.5rem;
+        font-size: 8.8rem;
+        line-height: 8.8rem;
+        letter-spacing: -0.11rem;
+    }
+    .intro p {
+        max-width: 82.5rem;
+        font-size: 2rem;
+        line-height: 3,4rem;
+        margin-top: 4rem;
+    }
+    /* styling of main div and it's elements */
+    .illustration {
+        width: 100%;
+        max-width: 111rem;
+        background-position: 33.5rem -3.5rem;
+    }
+    .illustration img {
+        width: 31.2rem;
+        height: 64.2rem;
+        top: -19.4rem;
+        left: 25.8rem;
+    }
+    .orange-box {
+        max-width: 44.6rem;
+        height: 62.5rem;
+        top: 9rem;
+        left: 79.2rem;
+    }
+    h2 {
+        margin: 5.8rem 5.9rem 2.2rem 5.4rem;
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
+    .orange-box p {
+        margin: 0 5.9rem 3.9rem 5.4rem;
+        font-size: 2rem;
+        line-height: 3.4rem;
+    }
+    #price {
+        margin-left:5.4rem;
+    }
+    #apple, #android {
+        max-width: 33.3rem;
+        max-height: 6.1rem;
+        margin: 1.6rem auto 0 auto;
+    }
+    #apple {
+        margin-top: 3rem;
+    }
+
+    /* styling of footer */
+    footer {
+        margin: 20.2rem 11.45% 9.1rem 11.45%;
+    }
+    footer .logo {
+        margin-right: unset;
+    }
+    footer p {
+        margin-top: unset;
+    }
+}

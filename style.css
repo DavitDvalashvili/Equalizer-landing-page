@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+
+:root {
+    --white: #FCFAF9;
+    --blue: #191826;
+    --orange: #FA7453;
+    --yellow: #FFB964;
+    --cyan: #66E2DC;
+    --bald: 900;
+    --normal: 400;
+}
+
+/* general styling */
+html {
+    font-size: 62.5%;
+    font-style: normal;
+    font-family: "IBM Plex Sans";
+}
+a {
+    text-decoration: none;
+    color: var(--blue);
+}
+body {
+    background-image: url(assets/bg-main-mobile.png);
+    background-position: top -25rem right -25rem;
+    background-repeat: no-repeat;
+}
+
+h1, h2, #apple, #android, #price {
+    font-weight: var(--bald);
+}
+.into p, .orange-box p {
+    font-weight: var(--normal);
+} 
+
+h1, .intro p, .fa-android, footer p, #android {
+    color: var(--blue);
+} 
+h2, .orange-box p, #price, #month, #apple, .fa-apple {
+    color: var(--white)
+}
+
+/* styling of header */
+header img {
+    margin: 4rem 0 0 2.415rem;
+}
+/* styling of introduction */
+.intro {
+    margin: 6.4rem 2.4rem 16.6rem 2.4rem;
+}
+h1 {
+    max-width: 52rem; 
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: -0.0454rem;
+}
+.intro p {
+    max-width: 51.4rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+/* styling of main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration {
+    width: 100%;
+    max-width: 59.65rem;
+    height: 60rem;
+    background-color: var(--blue);
+    border-radius: 12px;
+    background-image: url(assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+}
+.illustration img {
+    width: 20.9rem;
+    height: 43rem;
+    position: absolute;
+    top: -98px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.orange-box {
+    width: 100%;
+    max-width: 59.65rem;
+    border-radius: 12px;
+    background-color: var(--orange);
+    position: absolute;
+    top: 38rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+h2 {
+    margin: 4.8rem 3.7rem 1.6rem 3.6rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.orange-box p {
+    margin: 0 3.7rem 3.6rem 3.6rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+#price {
+    margin: 0 1.6rem 0 4.2rem;
+    font-size: 6.5rem;
+    line-height: 5.2rem;
+    vertical-align: middle;
+}
+#month {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.02rem;
+    vertical-align: middle;
+
+}
+#apple, #android {
+    max-width: 29.6rem;
+    max-height: 6.1rem;
+    border-radius: 12px;
+    margin: 16px auto 0 auto;
+}
+
+#apple {
+    background-color: var(--blue);
+    font-size: 1.88rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.018rem;
+    padding: 1.5rem 0;
+    margin-top: 3.2rem;
+}
+#apple:hover {
+    background-color: var(--cyan);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+#android {
+    background-color: var(--white);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.018rem;
+    vertical-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 4.8rem;
+}
+#android:hover {
+    background-color: var(--yellow);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.fa-android {
+    margin-right: 0.7rem;
+    font-size: 1.8rem;
+}
+.fa-apple {
+    margin-right: 0.7rem;
+    font-size: 1.8rem;
+}
+/* styling of footer */
+footer {
+    margin: 39rem 2.4rem 8rem 2.4rem;
+}
+
+footer .logo {
+    margin: 0.115rem;
+    width: 14.609rem;
+    height: 3.2rem;
+}
+footer p {
+    max-width: 36.6rem;
+    margin-top: 3.2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+footer span {
+    font-weight: bold;
+}
+.social-media {
+    margin-top: 6.4rem;
+}
+.fa {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+.fa-facebook-square, .fa-instagram {
+    margin-right: 2rem;
+}
+.social-media .fa:hover {
+    color: var(--orange);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
