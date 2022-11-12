@@ -3,12 +3,9 @@
     body {
         background-image: url(assets/bg-main-tablet.png);
         background-repeat: no-repeat;
-        background-position: right -25rem top -25rem;
-    }
-    html {
-        background-image: url(assets/bg-pattern-1.svg);
-        background-repeat: no-repeat;
-        background-position: top -3.2rem right -3.335rem;
+        background-position: right -10em top -25rem;
+        background-size: cover;
+        overflow-x: hidden;
     }
     /* styling of main div and it's elements */
     .illustration {
@@ -29,6 +26,13 @@
     /* styling of header */
     header img {
         margin: 6.2rem 0 0 3.915rem;
+    }
+    #bg-pattern {
+        display: inline-block;
+        position: absolute;
+        top: -3.2rem;
+        right: -3.335rem;
+        z-index: -1;
     }
     /* styling of introduction */
     .intro {
@@ -63,12 +67,11 @@
 
 
 @media only screen and (min-width: 1440px) {
-    /* html {
-        background-position: top -3.2rem right 0;
-    } */
     body {
         background-image: url(assets/bg-main-desktop.png);
         background-position: bottom 500px;
+        background-position: right -10em top -25rem;
+        background-size: cover;
     }
     /* styling of header */
     header img {
